@@ -1,0 +1,63 @@
+.wrap_gray{
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+/* 背景颜色属性 */
+.wrap_begin{
+	background: #808080;
+}
+.wrap_white{
+	background: #d4d4d4;
+}
+.wrap_black{
+	background: #333333;
+}
+.inner{
+	height: 70px;
+	width: 70px;
+	box-sizing: border-box;
+}
+/* 内部边框属性 */
+.inner_noborder{
+	border:none;
+}
+.inner_white_border{
+	border-bottom: 2px solid #f9f9f9;
+	border-right: 2px solid #f9f9f9;
+	border-top: 2px solid #afafaf;
+	border-left: 2px solid #afafaf;
+}
+.inner_black_border{
+	border-bottom: 2px solid #3c3c3c;
+	border-right: 2px solid #3c3c3c;
+	border-top: 2px solid #2a2a2a;
+	border-left: 2px solid #2a2a2a;
+}
+/* ! 提示属性 */
+.fontstyle{
+		font-size: 30px;
+		font-weight: 900;
+		color: red;
+		line-height: 60px;
+}
+
+/* 提示框属性 */
+.border_left{
+	padding-left: 0px;
+	border-left: 15px solid red;
+}
+.border_right{
+	padding-right:0px;
+	border-right: 15px solid red;
+}
+.border_top{
+	
+	padding-top:0px;
+	border-top: 15px solid red;
+}
+.border_bottom{
+	padding-bottom:0px;
+	border-bottom: 15px solid red;
+}
